@@ -85,9 +85,6 @@ Run the start script:
 ```bash
 # Windows
 startwithngrok.bat
-
-# Linux/Mac (if you create a shell version)
-./startwithngrok.sh
 ```
 
 **What happens:**
