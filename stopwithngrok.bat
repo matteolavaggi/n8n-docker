@@ -7,10 +7,10 @@ echo ===============================
 echo     Stopping n8n and ngrok    
 echo ===============================
 
-:: STEP 1: Stop and remove n8n container
+:: STEP 1: Stop n8n container (keep it visible in Docker Desktop)
 echo.
-echo [INFO] Stopping and removing n8n container...
-docker compose down
+echo [INFO] Stopping n8n container...
+docker compose stop
 
 :: STEP 2: Stop ngrok process
 echo.
