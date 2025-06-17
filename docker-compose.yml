@@ -10,7 +10,7 @@ services:
       - N8N_RUNNERS_ENABLED=true
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - GENERIC_TIMEZONE=Europe/Rome
-      - WEBHOOK_URL=https://iniziale.placeholder
+      - WEBHOOK_URL=https://e63d-151-83-174-119.ngrok-free.app
     volumes:
       - n8n_data:/home/node/.n8n
     restart: unless-stopped
